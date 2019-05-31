@@ -1,1 +1,63 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bad+Script&display=swap');
+.navbar {
+    margin: 0px;
+    padding: 0px;
+}
+
+.ul-nav {
+    text-align: right;
+    font-size: 30px;
+}
+
+#logo-nav {
+    width: 90px;
+}
+
+#title {
+    font-family: 'Courgette', cursive;
+    font-size: 50px;
+}
+
+.btn-font {
+    font-family: 'Bad Script', cursive;
+    font-size: 25px;
+    color: white;
+}
+
+.btn-font:hover {
+    color: #dfbdd3;
+    box-shadow: 0 0 1.5em #dfbdd3;
+}
+
+.btn-color {
+    background-color: #6e0746;
+}
+
+
+/* About me */
+
+#about {
+    display: grid;
+    grid-template-columns: 5% 40% 50% auto;
+    grid-template-rows: 5% 50% auto;
+    height: 84vh;
+}
+
+img {
+    width: 75%;
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+
+#foto {
+    margin: 20px auto;
+    border-radius: 49%;
+    border: 5px solid #b4046c;
+}
+
+#text-about {
+    width: 100%;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
