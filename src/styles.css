@@ -186,3 +186,24 @@ h3 {
     grid-column: 1/2;
     justify-self: end;
 }
+
+
+/* Tools */
+
+#tools {
+    display: grid;
+    grid-template-columns: 25% 25% 25% auto;
+    grid-template-rows: 50% auto;
+    height: 70vh;
+}
+
+.icon-tools {
+    margin: auto;
+}
+
+#firebase-tools {
+    grid-column: 1;
+    grid-row: 2;
+    width: 150px;
+    margin: auto;
+}
