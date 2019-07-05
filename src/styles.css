@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Bad+Script&display=swap');
-.font-Bad-Script {
-    font-family: 'Bad Script', cursive;
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+.font-dm-serif-text {
+    font-family: 'DM Serif Text', serif;
 }
 
-.font-Courgette {
-    font-family: 'Courgette', cursive;
+.font-libre-baskerville {
+    font-family: 'Libre Baskerville', serif;
 }
 
 
@@ -44,7 +44,6 @@
 }
 
 .btn-font {
-    font-family: 'Bad Script', cursive;
     font-size: 25px;
     color: white;
 }
@@ -414,29 +413,40 @@ width: 15px;
         font-size: 60px;
     }
     .btn-font {
-        font-size: 30px;
+        font-size: 22px;
     }
     /* About me */
     #about {
         grid-template-rows: 5% 50% 50% 10%;
         height: 66vh;
     }
-    #foto {
+    #borde-img {
+        height: 100%;
         width: 50%;
+        grid-column: 2/5;
         grid-row: 3/4;
-        grid-column: 2/4;
+        margin: auto;
+    }
+    #foto {
+        width: 90%;
+        height: 90%;
+        margin: 16px
     }
     #text-about {
-        grid-column: 2/4;
+        grid-column: 2/5;
         grid-row: 2/3;
-        font-size: 25px;
+        font-size: 23px;
     }
     /* projects */
+    .no-gutters {
+        width: 82%;
+        margin: auto;
+    }
     .projects {
-        height: 80vh;
+        height: 82.5vh;
     }
     .card {
-        height: 75vh;
+        height: 79vh;
     }
     .card-title {
         font-size: 50px;
@@ -444,19 +454,24 @@ width: 15px;
     .card-body {
         grid-template-columns: 23.75% 23.75% 5% 22% auto;
         grid-template-rows: 20% 50% 10%;
-        width: 95vw;
-        height: 49vh;
+        width: 81vw;
+        height: 55vh;
     }
     .card-text {
-        font-size: 25px;
+        font-size: 22px;
     }
     .img-card {
         width: 40%;
         margin: 7% auto;
     }
-    #burger,
-    #picfood {
+    .btn-card {
+        width: 62%;
+    }
+    #burger {
         margin: 0 auto;
+    }
+    #picfood {
+        margin: 40px auto 15px;
     }
     .icon {
         grid-template-columns: 33.3% 33.3% 33.3%;
@@ -476,8 +491,11 @@ width: 15px;
         font-size: 5em;
         margin: auto;
     }
-    #firebase-tools {
-        width: 90px;
+    .firebase {
+        width: 70px;
+    }
+    #pokemon {
+        margin-top: 95px;
     }
     /* skills */
     #skills {
