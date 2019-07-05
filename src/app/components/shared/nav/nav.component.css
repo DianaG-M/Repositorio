@@ -1,0 +1,49 @@
+.btn-group-vertical>.btn.active,
+.btn-group-vertical>.btn:active,
+.btn-group-vertical>.btn:focus,
+.btn-group>.btn.active,
+.btn-group>.btn:active,
+.btn-group>.btn:focus {
+    color: #dfbdd3;
+    box-shadow: inset 0 0 15px #dfbdd3;
+}
+
+.navbar {
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo-nav {
+    width: 150px;
+    margin-left: 40px;
+}
+
+#title {
+    font-size: 80px;
+}
+
+.navbar-brand {
+    margin: auto;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.btn-font {
+    font-size: 25px;
+    color: white;
+}
+
+.btn-font:hover {
+    color: #dfbdd3;
+    box-shadow: inset 0 0 25px #dfbdd3;
+}
+
+.btn-color {
+    background-color: #6e0746;
+}
+
+.btn-group {
+    width: 100%;
+}
