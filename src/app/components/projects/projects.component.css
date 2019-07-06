@@ -1,0 +1,120 @@
+.no-gutters {
+    width: 85%;
+    margin: auto;
+}
+
+.projects {
+    background-color: #f8deef75;
+    height: 73vh;
+}
+
+.carousel-indicators li {
+    background-color: rgb(110, 7, 70);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-image: none;
+}
+
+.fa-4x {
+    text-align: center;
+    color: #6e0746;
+}
+
+.card {
+    height: 65vh;
+    border: 0px;
+    background-color: #f8deef75;
+}
+
+.card-title {
+    grid-column: 1/6;
+    font-size: 50px;
+    color: #b4046c;
+}
+
+.btn-card {
+    background-image: url('/assets/img/cinta.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #dfbdd300;
+    width: 50%;
+    margin: auto;
+}
+
+.btn-font {
+    font-size: 25px;
+    color: white;
+}
+
+.btn-font:hover {
+    color: #dfbdd3;
+    box-shadow: inset 0 0 25px #dfbdd3;
+}
+
+.img-card {
+    width: 75%;
+    margin: 20% auto 0;
+}
+
+.card-body {
+    display: grid;
+    height: 70vh;
+    grid-template-columns: 23.75% 23.75% 5% 23.75%;
+    grid-template-rows: 20% 30% 30% auto;
+}
+
+h3 {
+    grid-column: 1/6;
+    grid-row: 1;
+}
+
+.card-text {
+    grid-column: 1/3;
+    grid-row: 2/4;
+    font-size: 24px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.codigo,
+.demo {
+    grid-row: 4/5;
+}
+
+.codigo {
+    grid-column: 1/3;
+}
+
+.demo {
+    grid-column: 4/6;
+}
+
+.icon {
+    grid-column: 4/6;
+    grid-row: 2/4;
+    display: grid;
+    grid-template-columns: 25% 25% 25% auto;
+    grid-template-rows: 50% 50%;
+}
+
+.icon-color {
+    color: #d676b4;
+    margin: auto;
+    font-size: 5em;
+}
+
+.firebase {
+    width: 90px;
+    justify-self: end;
+}
+
+#pokemon {
+    margin-top: 168px;
+}
+
+#firebase-picfood {
+    grid-column: 1/2;
+    justify-self: end;
+}
