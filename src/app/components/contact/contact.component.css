@@ -50,3 +50,15 @@
 #phone {
     grid-column: 6/7;
 }
+
+
+/* 768 x 1024 */
+
+@media (max-width: 769px) and (max-height: 1025px) {
+    #contact-me {
+        height: 80vh;
+    }
+    #contact {
+        text-align: center;
+    }
+}

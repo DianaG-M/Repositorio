@@ -118,3 +118,58 @@ h3 {
     grid-column: 1/2;
     justify-self: end;
 }
+
+
+/* 768 X 1024 */
+
+@media (max-width: 769px) and (max-height: 1025px) {
+    .no-gutters {
+        width: 82%;
+        margin: auto;
+    }
+    .projects {
+        height: 82.5vh;
+    }
+    .card {
+        height: 79vh;
+    }
+    .card-title {
+        font-size: 50px;
+    }
+    .card-body {
+        grid-template-columns: 23.75% 23.75% 5% 22% auto;
+        grid-template-rows: 20% 50% 10%;
+        width: 81vw;
+        height: 55vh;
+    }
+    .card-text {
+        font-size: 22px;
+    }
+    .img-card {
+        width: 40%;
+        margin: 7% auto;
+    }
+    .btn-card {
+        width: 65%;
+    }
+    #burger {
+        margin: 0 auto;
+    }
+    #picfood {
+        margin: 40px auto 15px;
+    }
+    .icon {
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        grid-template-rows: 33.3% 33.3% 33.3%;
+    }
+    .icon-color {
+        font-size: 4em;
+        margin: auto;
+    }
+    .firebase {
+        width: 60px;
+    }
+    #pokemon {
+        margin-top: 95px;
+    }
+}

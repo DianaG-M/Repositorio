@@ -47,3 +47,19 @@
 .btn-group {
     width: 100%;
 }
+
+
+/* 768 X 1024 */
+
+@media (max-width: 769px) and (max-height: 1025px) {
+    #logo-nav {
+        width: 90px;
+        margin-left: 10px;
+    }
+    #title {
+        font-size: 60px;
+    }
+    .btn-font {
+        font-size: 22px;
+    }
+}

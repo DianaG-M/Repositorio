@@ -27,3 +27,22 @@
 #empathy {
     grid-row: 2;
 }
+
+
+/* 768 X 1024 */
+
+@media (max-width: 769px) and (max-height: 1025px) {
+    #skills {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        height: 86vh;
+    }
+    .img-skills {
+        width: 40%;
+        margin: auto;
+    }
+    .title-skills {
+        font-size: 30px;
+        margin: auto;
+    }
+}
