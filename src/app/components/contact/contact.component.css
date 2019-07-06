@@ -1,0 +1,47 @@
+#contact-me {
+    background-color: #f8deef75;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 5% 18% 18% 18% 18% 18% 5%;
+    grid-template-rows: 40% 50% 10%
+}
+
+#contact {
+    margin: auto;
+    grid-column: 1/8;
+    color: #b4046c;
+}
+
+.icon-contact {
+    font-size: 6em;
+    color: #d676b4;
+}
+
+#git-contact,
+#linkedIl,
+#gmail,
+#cv,
+#phone {
+    grid-row: 2/3;
+    margin: auto;
+}
+
+#git-contact {
+    grid-column: 2/3;
+}
+
+#linkedIl {
+    grid-column: 3/4;
+}
+
+#gmail {
+    grid-column: 4/5;
+}
+
+#cv {
+    grid-column: 5/6;
+}
+
+#phone {
+    grid-column: 6/7;
+}
