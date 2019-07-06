@@ -9,56 +9,6 @@
 }
 
 
-/* skills */
-
-
-/* #skills {
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3% auto;
-    grid-template-rows: 10% 40% 10% 40%;
-    width: 100%;
-    height: 70vh;
-}
-
-.img-skills {
-    width: 40%;
-    margin: auto;
-}
-
-.title-skills {
-    font-size: 30px;
-    margin: auto;
-}
-
-#team-work,
-#img-team,
-#empathy,
-#img-empathy {
-    grid-column: 1/2;
-}
-
-#img-team,
-#img-self,
-#img-calendy {
-    grid-row: 2/3;
-}
-
-#self-learn,
-#img-self {
-    grid-column: 2/3;
-}
-
-#calendy,
-#img-calendy {
-    grid-column: 3/4;
-}
-
-#img-empathy {
-    grid-row: 4/5;
-}
- */
-
-
 /* Contact */
 
 

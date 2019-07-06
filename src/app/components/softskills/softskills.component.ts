@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-softskills',
   templateUrl: './softskills.component.html',
-  styles: []
+  styleUrls: ['./softskills.component.css']
 })
 export class SoftskillsComponent implements OnInit {
 

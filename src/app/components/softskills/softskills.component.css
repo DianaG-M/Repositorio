@@ -1,0 +1,29 @@
+#skills {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3% auto;
+    grid-template-rows: 50% 50%;
+    width: 100%;
+    height: 70vh;
+}
+
+.img-skills {
+    width: 40%;
+    margin: auto;
+}
+
+.title-skills {
+    font-size: 30px;
+    margin: auto;
+    color: #b4046c;
+}
+
+.div-skill {
+    display: grid;
+    text-align: center;
+    height: 70vh;
+    grid-template-rows: 40% 10%;
+}
+
+#empathy {
+    grid-row: 2;
+}
