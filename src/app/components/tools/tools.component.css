@@ -1,0 +1,31 @@
+#tools {
+    display: grid;
+    grid-template-columns: 25% 25% 25% auto;
+    grid-template-rows: 50% auto;
+    height: 70vh;
+}
+
+.div-tools {
+    margin: auto;
+}
+
+.icon-tools {
+    margin: auto;
+    font-size: 10em;
+    padding: 40px 0 0;
+    color: #d676b4;
+}
+
+#firebase-tools {
+    grid-column: 1;
+    grid-row: 2;
+    width: 150px;
+    margin: auto 25px;
+    padding: 40px 0 0;
+}
+
+.title-tools {
+    text-align: center;
+    font-size: 25px;
+    color: #b4046c;
+}
