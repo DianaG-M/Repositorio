@@ -1,11 +1,13 @@
-.btn-group-vertical>.btn.active,
-.btn-group-vertical>.btn:active,
-.btn-group-vertical>.btn:focus,
-.btn-group>.btn.active,
-.btn-group>.btn:active,
-.btn-group>.btn:focus {
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
     color: #dfbdd3;
     box-shadow: inset 0 0 15px #dfbdd3;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
 }
 
 .navbar {
@@ -46,6 +48,10 @@
 
 .btn-group {
     width: 100%;
+}
+
+ul li {
+    width: 20%;
 }
 
 

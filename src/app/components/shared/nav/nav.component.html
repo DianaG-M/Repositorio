@@ -1,11 +1,31 @@
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f8deef75">
+<div class="navbar navbar-expand-lg navbar-light" style="background-color: #f8deef75">
     <img src="../../../../favicon.ico" alt="" id="logo-nav">
     <a [routerLink]="['/about_me']" class="navbar-brand font-dm-serif-text" id="title">Diana Gutiérrez</a>
-</nav>
-<div class="btn-group" role="group" aria-label="Basic example">
-    <button [routerLink]="['/about_me']" routerLinkActive="active" type="button" class="btn btn-color btn-font font-libre-baskerville">Acerca de mí</button>
-    <button [routerLink]="[ '/proyectos'] " routerLinkActive="active" type="button " class="btn btn-color btn-font font-libre-baskerville">Proyectos</button>
-    <button [routerLink]="[ '/herramientas'] " routerLinkActive="active" type="button " class="btn btn-color btn-font font-libre-baskerville">Herramientas</button>
-    <button [routerLink]="[ '/habilidades'] " routerLinkActive="active" type="button " class="btn btn-color btn-font font-libre-baskerville">Habilidades</button>
-    <button [routerLink]="[ '/contacto'] " routerLinkActive="active" type="button " class="btn btn-color btn-font font-libre-baskerville">Contáctame</button>
 </div>
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #f8deef75">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav btn-group">
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link btn btn-color btn-font font-libre-baskerville" [routerLink]="['/about_me']"> Acerca de mí</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link btn btn-color btn-font font-libre-baskerville" [routerLink]="[ '/proyectos']">Proyectos</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link btn btn-color btn-font font-libre-baskerville" [routerLink]="[ '/herramientas']">Herramientas</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link btn btn-color btn-font font-libre-baskerville" [routerLink]="[ '/habilidades']">Habilidades</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link btn btn-color btn-font font-libre-baskerville" [routerLink]="[ '/contacto']">Contacto</a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
