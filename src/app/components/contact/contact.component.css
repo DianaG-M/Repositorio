@@ -1,6 +1,6 @@
 #contact-me {
     background-color: #f8deef75;
-    height: 70vh;
+    height: 84vh;
     display: grid;
     grid-template-columns: 5% 18% 18% 18% 18% 18% 5%;
     grid-template-rows: 40% 50% 10%
@@ -8,6 +8,7 @@
 
 #contact {
     font-size: 45px;
+    text-align: center;
     margin: auto;
     grid-column: 1/8;
     color: #b4046c;
@@ -52,21 +53,49 @@
 }
 
 
+/* 0 - 575 */
+
+@media (max-width: 575px) {
+    #contact-me {
+        width: 92vw;
+        grid-template-columns: 5% 30% 30% 30% 5%;
+        grid-template-rows: 40% 25% 25% 10%
+    }
+    #contact {
+        grid-column: 1/6;
+        font-size: 35px;
+    }
+    .icon-contact {
+        font-size: 4em;
+    }
+    #cv {
+        grid-column: 2/3;
+        grid-row: 3;
+    }
+    #phone {
+        grid-column: 4/5;
+        grid-row: 3;
+    }
+}
+
+
 /* 768 x 1024 */
 
-@media (max-width: 769px) and (max-height: 1025px) {
+
+/* @media (max-width: 769px) and (max-height: 1025px) {
     #contact-me {
         height: 80vh;
     }
     #contact {
         text-align: center;
     }
-}
+} */
 
 
 /* 376x668 */
 
-@media (max-width: 376px) and (max-height: 668px) {
+
+/* @media (max-width: 376px) and (max-height: 668px) {
     #contact-me {
         height: 85.5vh;
         grid-template-columns: 5% 30% 30% 30% 5%;
@@ -87,4 +116,4 @@
         grid-column: 4/5;
         grid-row: 3;
     }
-}
+} */

@@ -7,3 +7,8 @@
 .font-libre-baskerville {
     font-family: 'Libre Baskerville', serif;
 }
+
+.fixed {
+    position: fixed;
+    width: 100vw;
+}
