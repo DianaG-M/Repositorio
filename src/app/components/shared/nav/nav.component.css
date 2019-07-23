@@ -55,12 +55,31 @@ ul li {
 }
 
 
-/* 0 - 575 */
+/* 0 - 376 */
 
-@media (max-width: 575px) {
+@media (max-width: 376px) {
     #logo-nav {
         width: 60px;
         margin-left: 20px;
+    }
+    #title {
+        font-size: 35px;
+    }
+    ul li {
+        width: 100%;
+    }
+    .btn-font {
+        font-size: 15px;
+    }
+}
+
+
+/* 377 - 576 */
+
+@media (max-width: 576px) {
+    #logo-nav {
+        width: 70px;
+        margin-left: 10px;
     }
     #title {
         font-size: 35px;
