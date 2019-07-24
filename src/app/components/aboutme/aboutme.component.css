@@ -58,6 +58,12 @@
     }
 }
 
+@media (max-height: 568px) {
+    #about {
+        height: 115vh;
+    }
+}
+
 
 /* 768 X 1024 */
 

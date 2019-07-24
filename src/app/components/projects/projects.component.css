@@ -5,7 +5,7 @@
 
 .projects {
     background-color: #f8deef75;
-    height: 73vh;
+    height: 72.5vh;
 }
 
 .carousel-indicators li {
@@ -144,7 +144,7 @@ h3 {
         grid-template-rows: 10% 35% 40% auto;
     }
     .card-title {
-        font-size: 30px;
+        font-size: 27px;
     }
     .card-text {
         grid-column: 1/6;
@@ -173,6 +173,21 @@ h3 {
     }
     #pokemon {
         margin: 90px auto 64px;
+    }
+}
+
+@media (max-height: 568px) {
+    .projects {
+        height: 130vh;
+    }
+    .no-gutters {
+        height: 120vh;
+    }
+    .card {
+        height: 120vh;
+    }
+    .card-body {
+        height: 81vh;
     }
 }
 
