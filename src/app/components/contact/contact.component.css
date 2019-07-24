@@ -1,6 +1,6 @@
 #contact-me {
     background-color: #f8deef75;
-    height: 84vh;
+    height: 68vh;
     display: grid;
     grid-template-columns: 5% 18% 18% 18% 18% 18% 5%;
     grid-template-rows: 40% 50% 10%
@@ -9,7 +9,7 @@
 #contact {
     font-size: 45px;
     text-align: center;
-    margin: auto;
+    margin: 5% 0;
     grid-column: 1/8;
     color: #b4046c;
 }
