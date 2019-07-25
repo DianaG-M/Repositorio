@@ -53,7 +53,7 @@
 }
 
 
-/* 0 - 575 */
+/* 321 - 575 */
 
 @media (max-width: 575px) {
     #contact-me {
@@ -75,6 +75,16 @@
     #phone {
         grid-column: 4/5;
         grid-row: 3;
+    }
+}
+
+
+/* 0 -320 */
+
+@media (max-width: 320px) {
+    #contact {
+        font-size: 28px;
+        margin: 15% 0;
     }
 }
 

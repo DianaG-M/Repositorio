@@ -31,7 +31,7 @@
 }
 
 
-/* - 575 */
+/* 321 - 575 */
 
 @media (max-width: 575px) {
     #tools {
@@ -47,6 +47,21 @@
     }
     .title-tools {
         font-size: 18px
+    }
+}
+
+
+/* 0 - 320 */
+
+@media (max-width: 320px) {
+    .title-tools {
+        font-size: 14px;
+    }
+    .icon-tools {
+        font-size: 3em;
+    }
+    #firebase-tools {
+        width: 55px;
     }
 }
 
